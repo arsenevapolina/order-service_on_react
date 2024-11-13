@@ -1,0 +1,9 @@
+.h1 {
+    font-size: 36.41px;
+    font-weight: 600;
+    line-height: 43.7px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-color);
+    margin: 0;
+}
