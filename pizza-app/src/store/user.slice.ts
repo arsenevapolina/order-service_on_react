@@ -103,9 +103,9 @@ export const userSlice = createSlice({
       if (!action.payload) {
         return;
       }
-      // Добавьте нужные действия для успешной регистрации (например, сохранение jwt)
-      state.jwt = action.payload.access_token; // Если API возвращает токен
-      state.registerErrorMessage = undefined; // Очистка предыдущего сообщения об ошибке
+
+      state.jwt = action.payload.access_token; 
+      state.registerErrorMessage = undefined; 
     });
     builder.addCase(register.rejected, (state, action) => {
       state.registerErrorMessage = action.error.message;
