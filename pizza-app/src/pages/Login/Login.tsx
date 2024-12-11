@@ -1,5 +1,5 @@
 import Button from "../../components/Button/Button";
-import Headling from "../../components/Heading/Headlling";
+import Headling from "../../components/Heading/Heading";
 import Input from "../../components/Input/Input";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Login.module.css";

@@ -1,5 +1,5 @@
 import Button from "../../components/Button/Button";
-import Headling from "../../components/Heading/Headlling";
+import Heading from "../../components/Heading/Heading";
 import Input from "../../components/Input/Input";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Register.module.css";
@@ -41,7 +41,7 @@ export function Register() {
 
   return (
     <div className={styles["login"]}>
-      <Headling>Регистрация</Headling>
+      <Heading>Регистрация</Heading>
       {registerErrorMessage && (
         <div className={styles["error"]}>{registerErrorMessage}</div>
       )}

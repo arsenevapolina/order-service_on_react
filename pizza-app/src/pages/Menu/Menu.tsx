@@ -1,4 +1,4 @@
-import Headling from "../../components/Heading/Headlling";
+import Heading from "../../components/Heading/Heading";
 import Search from "../../components/Search/Search";
 import { PREFIX } from "../../helpers/API";
 import styles from './Menu.module.css';
@@ -45,7 +45,7 @@ import { MenuList } from "./MenuList/MenuList";
   return (
     <>
       <div className={styles["head"]}>
-        <Headling>Меню</Headling>
+        <Heading>Меню</Heading>
         <Search
           placeholder="Введите блюдо или состав"
           onChange={updateFilter}

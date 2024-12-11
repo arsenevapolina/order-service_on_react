@@ -1,6 +1,6 @@
 import React, { MouseEvent } from 'react';
 import styles from './ProductCard.module.css';
-import { ProductCardProps } from './ProductCardProps';
+import { ProductCardProps } from './ProductCard.props';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { AppDispath } from '../../store/store';

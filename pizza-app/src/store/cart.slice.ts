@@ -18,7 +18,7 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
     add: (state, action: PayloadAction<number>) => {
-        const existed = state.items.find(i => i.id = action.payload);
+        const existed = state.items.find(i => i.id === action.payload);
         if (!existed) {
             state.items.push({ id: action.payload, count: 1 });
             return;
